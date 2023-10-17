@@ -77,7 +77,7 @@
 B - количество чисел, которое выбираем (6)
 n - количество совпадающих чисел (1-6)
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{b-n}^{43}}{C_{A}^{B}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{B-n}^{A-B}}{C_{A}^{B}})
 
 
 2. На каждой грани правильного додекаэдра написаны числа от 1 до 12
