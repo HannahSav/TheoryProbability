@@ -4,86 +4,86 @@
 Затем эти числа сверяются с 6 числами, отобранными случайным образом.
 Каковы вероятности угадать n чисел, n = 1, 2, 3, 4, 5, 6?  
 
-Сколько вообще существует наборов по 6 различных карт:
+_Сколько вообще существует наборов по 6 различных карт:_
   
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{49}^{6})
   
 
-Поймем, что случай, когда совпали все 6 карт - всего 1  
+_Поймем, что случай, когда совпали все 6 карт - всего 1_  
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{0})
 
-При этом также у нас есть различные варианты того, какие конкретно числа совпали:
+_При этом также у нас есть различные варианты того, какие конкретно числа совпали:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{6})
 
-Когда совпали 5 карт - мы выбираем одну карту из оставшихся 43 (5 уже выбрали, а 6я не должна совпасть):   
+_Когда совпали 5 карт - мы выбираем одну карту из оставшихся 43 (5 уже выбрали, а 6я не должна совпасть):_   
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{1})
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{5})
 
 
-Для n = 4:
+_Для n = 4:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{2})
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{4})
 
 
-Для n = 3:
+_Для n = 3:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{3})
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{3})
 
 
-Для n = 2:
+_Для n = 2:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{4})
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{2})
 
 
-Для n = 1:
+_Для n = 1:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{5})
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{1})
 
 
-Соответственно вероятности - это
+_Соответственно вероятности - это_
 
 
-Для n = 6:
+_Для n = 6:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{0}^{43}C_{6}^{6}}{C_{49}^{6}})
 
 
-Для n = 5:
+_Для n = 5:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{1}^{43}C_{5}^{6}}{C_{49}^{6}})
 
 
-Для n = 4:
+_Для n = 4:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{2}^{43}C_{4}^{6}}{C_{49}^{6}})
 
 
-Для n = 3:
+_Для n = 3:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{3}^{43}C_{3}^{6}}{C_{49}^{6}})
 
 
-Для n = 2:
+_Для n = 2:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{4}^{43}C_{2}^{6}}{C_{49}^{6}})
 
 
-Для n = 1:
+_Для n = 1:_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{5}^{43}C_{1}^{6}}{C_{49}^{6}})
 
 
-Ну или в общем виде:
+_Ну или в общем виде:
 если A - общее количество чисел (49)
 B - количество чисел, которое выбираем (6)
-n - количество совпадающих чисел (1-6)
+n - количество совпадающих чисел (1-6)_
 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{B-n}^{A-B}C_{n}^{B}}{C_{A}^{B}})
 
