@@ -13,30 +13,38 @@
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{0})
 
+При этом также у нас есть различные варианты того, какие конкретно числа совпали:
+
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{6})
 
 Когда совпали 5 карт - мы выбираем одну карту из оставшихся 43 (5 уже выбрали, а 6я не должна совпасть):   
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{1})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{5})
 
 
 Для n = 4:
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{2})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{4})
 
 
 Для n = 3:
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{3})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{3})
 
 
 Для n = 2:
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{4})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{2})
 
 
 Для n = 1:
 
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{5})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{6}^{1})
 
 
 Соответственно вероятности - это
@@ -44,32 +52,32 @@
 
 Для n = 6:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{0}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{0}^{43}C_{6}^{6}}{C_{49}^{6}})
 
 
 Для n = 5:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{1}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{1}^{43}C_{5}^{6}}{C_{49}^{6}})
 
 
 Для n = 4:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{2}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{2}^{43}C_{4}^{6}}{C_{49}^{6}})
 
 
 Для n = 3:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{3}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{3}^{43}C_{3}^{6}}{C_{49}^{6}})
 
 
 Для n = 2:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{4}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{4}^{43}C_{2}^{6}}{C_{49}^{6}})
 
 
 Для n = 1:
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{5}^{43}}{C_{49}^{6}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{5}^{43}C_{1}^{6}}{C_{49}^{6}})
 
 
 Ну или в общем виде:
@@ -77,21 +85,21 @@
 B - количество чисел, которое выбираем (6)
 n - количество совпадающих чисел (1-6)
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{B-n}^{A-B}}{C_{A}^{B}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{B-n}^{A-B}C_{n}^{B}}{C_{A}^{B}})
 
 
 2. На каждой грани правильного додекаэдра написаны числа от 1 до 12
 (игральный додекаэдр). Бросаются 3 додекаэдра на плоскость и считается
 сумма значений на гранях, лежащих на плоскости. Выписать 5 самых
 вероятных сумм и их вероятности.  
-   [img2_1.jpg](resources/img2_1.jpg) [img2_2.jpg](resources/img2_2.jpg)
-   [img2_3.jpg](resources/img2_3.jpg) [img2_4.jpg](resources/img2_4.jpg)
+   ![img2_1.jpg](resources/img2_1.jpg) ![img2_2.jpg](resources/img2_2.jpg)  
+   ![img2_3.jpg](resources/img2_3.jpg) ![img2_4.jpg](resources/img2_4.jpg)
    
 3. На грани правильного додекаэдра написали первые буквы названий
 месяцев. Сколько раз нужно бросить додекаэдр, чтобы с вероятностью
-0,99 выпала хотя бы 1 раз буква А?
-    [img3_1.jpg](resources/img3_1.jpg) 
-    [img3_2.jpg](resources/img3_2.jpg) 
+0,99 выпала хотя бы 1 раз буква А?  
+   ![img3_1.jpg](resources/img3_1.jpg)  
+   ![img3_2.jpg](resources/img3_2.jpg) 
   
 4. В списке фамилий студентов вашей группы опечатка в одной букве. Найти
 вероятность, что неверно написана гласная буква.
