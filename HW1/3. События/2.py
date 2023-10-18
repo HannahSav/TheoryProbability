@@ -11,10 +11,10 @@ for i in range(1, 13):
 
 print("сумма : кол-во наборов")
 sum = 0
-for i in range(2, 25):
+for i in range(2, 37):
     print(i, ':', a[i])
     sum += a[i]
 
 print("сумма : вероятность")
-for i in range(2, 25):
+for i in range(2, 37):
     print(i, ":", a[i] / sum)
