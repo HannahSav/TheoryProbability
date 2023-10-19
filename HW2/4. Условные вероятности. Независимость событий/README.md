@@ -17,7 +17,7 @@ _Всего различных вариантов набрать 3 первых 
 _И так далее_
 
 _Итого:_
-https://latex.codecogs.com/svg.image?\inline&space;\prod_{i=0}^{k}\frac{m-i}{m&plus;n-i}
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\prod_{i=0}^{k}\frac{m-i}{m&plus;n-i})
 
 _Вероятность соответственно:_
     
