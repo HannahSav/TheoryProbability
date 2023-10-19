@@ -64,15 +64,15 @@ _А условия независимости в совокупности - не
 для колоды из 54 карт с добавленными джокерами?
    
 _*Для колоды без джокеров*_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{52}=\frac{1}{4})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{52}=\frac{1}{13})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{52}=\frac{1}{4})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{52}=\frac{1}{13})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B)=\frac{1}{52})
   
 _Условие независимости выполнено_
   
 _*Для колоды с джокерами*_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{54})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{54})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{54})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{54})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B)=\frac{1}{54})  
   
 _Условие независимости не выполнено_
