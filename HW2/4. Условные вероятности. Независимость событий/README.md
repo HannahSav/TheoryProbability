@@ -95,7 +95,7 @@ _Вероятность вытащить третьим ходом даму, к�
   
 _Итого общая вероятность:_
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{36}\сdot&space\frac{4}{35}\сdot&space\frac{4}{34})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{36}\сdot&space;\frac{4}{35}\сdot&space;\frac{4}{34})  
 
 
   
