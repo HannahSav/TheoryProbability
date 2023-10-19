@@ -122,17 +122,17 @@ _Пусть второй стрелок попадает ПЕРВЫМ со СВ�
   
 _Вероятность этого события:_
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;(1-0,8)^2\cdot&space(1-0,3)\cdot&space;0,3)
+![формула](https://latex.codecogs.com/svg.image?\inline&space;(1-0,8)^2\cdot&space;(1-0,3)\cdot&space;0,3)
 
 _Пусть второй стрелок попадает ПЕРВЫМ со СВОЕГО третьего выстрела_  
   
 _Вероятность этого события:_
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;(1-0,8)^3\cdot&space(1-0,3)^{2}\cdot&space;0,3)
+![формула](https://latex.codecogs.com/svg.image?\inline&space;(1-0,8)^3\cdot&space;(1-0,3)^{2}\cdot&space;0,3)
   
   
 _В общем виде для попадания 2-го стрелка с n-того выстрела_  
-![формула](https://latex.codecogs.com/svg.image?\inline&space;(0,2)^(n))\cdot&space(0,7)^{n-1}\cdot&space;0,3=0,14^{n}\cdot&space;\frac{0,3}{0,7})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;(0,2)^(n))\cdot&space;(0,7)^{n-1}\cdot&space;0,3=0,14^{n}\cdot&space;\frac{0,3}{0,7})
 
 
      
