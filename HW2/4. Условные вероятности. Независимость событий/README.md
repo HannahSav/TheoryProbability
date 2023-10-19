@@ -20,7 +20,7 @@ _Количество случаев, что на одном выпадет 12, 
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;1\ast&space;11\ast&space;10)  
 _И это все нужно умножить на три, поскольку 12 могло выпадать на каждом из 3х додекаэдоров:_
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;3\ast&space;11\ast&space;10=330)
-Количес![img.png](img.png)тво всех вариантов выпадения:
+Количество всех вариантов выпадения:
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;12^{3})
 
 Итого вероятность:
@@ -28,7 +28,8 @@ _И это все нужно умножить на три, поскольку 12
 
 Проверим кодом:
 ![код](2.py)
-![img2.jpg](resources/img2.jpg)
+![img2.jpg](resources/img2.jpg)  
+
    
 
 3. Бросают 2 игральных додекаэдра. Определим три события:  
@@ -46,9 +47,17 @@ _События независимы в совокупности:_
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B\cdot&space;C)=P(A)\cdot&space;P(B)\cdot&space;P(C))
 
 
-Количество случаев:
-![gg](resources/img3.img)
+Количество случаев:  
+
+![gg](resources/img3.jpg)
 ![код для рассчета случаев](3.py)
+
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=P(B)=P(C)=\frac{72}{144}=\frac{1}{2})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B)=P(A\cdot&space;C)=P(B\cdot&space;C)=\frac{36}{144}=\frac{1}{4})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B\cdot&space;C)=0/144&space;)
+
+_Соответственно условия попарной независимости выполнены_  
+_А условия независимости в совокупности - нет_
   
 4. Из колоды из 52 карт вынули 1 карту. Независимы ли события A —
 вынутая карта червовая, B — вынутая карта туз? Аналогичный вопрос
