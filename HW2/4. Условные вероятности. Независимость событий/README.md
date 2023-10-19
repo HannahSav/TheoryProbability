@@ -9,7 +9,7 @@ _Всего различных вариантов набрать k белых ш
 ![формула](https://latex.codecogs.com/svg.image?&space;C_{m}^{k})
 
 _Вероятность соответственно:_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{{C_{m+n}^{k}}{C_{m}^{k}})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{C_{m+n}^{k}}{C_{m}^{k}})
 
 
 2. Бросают 3 игральных додекаэдра. Какова вероятность, что на одном из
