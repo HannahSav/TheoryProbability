@@ -4,23 +4,12 @@
 
      
 _Всего различных вариантов набрать k шаров -_ 
-![формула](https://latex.codecogs.com/svg.image?&space;C_{m+m}^{5})
-_Всего различных вариантов набрать 1 первый белый шар -_ 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m+n})
-_Всего различных вариантов набрать 2 первых белых шара -_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m+n})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m-1}{m+n-1})
-_Всего различных вариантов набрать 3 первых белых шара -_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m+n})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m-1}{m+n-1})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m-2}{m+n-2})
-_И так далее_
-
-_Итого:_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;\prod_{i=0}^{k}\frac{m-i}{m&plus;n-i})
+![формула](https://latex.codecogs.com/svg.image?&space;C_{m+n}^{k})
+_Всего различных вариантов набрать k белых шаров -_ 
+![формула](https://latex.codecogs.com/svg.image?&space;C_{m}^{k})
 
 _Вероятность соответственно:_
-    
+![формула](https://latex.codecogs.com/svg.image?&space;\frac{{C_{m+n}^{k}}{C_{m}^{k}})
   
   
 
