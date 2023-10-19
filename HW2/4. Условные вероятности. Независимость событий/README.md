@@ -63,14 +63,14 @@ _А условия независимости в совокупности - не
 вынутая карта червовая, B — вынутая карта туз? Аналогичный вопрос
 для колоды из 54 карт с добавленными джокерами?
    
-_*Для колоды без джокеров*_
+_*Для колоды без джокеров*_  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{52}=\frac{1}{4})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{52}=\frac{1}{13})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B)=\frac{1}{52})
   
 _Условие независимости выполнено_
   
-_*Для колоды с джокерами*_
+_*Для колоды с джокерами*_  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A)=\frac{13}{54})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(B)=\frac{4}{54})  
 ![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A\cdot&space;B)=\frac{1}{54})  
@@ -79,8 +79,25 @@ _Условие независимости не выполнено_
        
 
 5. Из колоды 36 карт последовательно вынимают 3 карты. Какова
-вероятность вытащить туз, король, дамму (в такой последовательности)?  
-[код](5.py)
+вероятность вытащить туз, король, даму (в такой последовательности)?
+  
+_Вытащить в первый раз туз - вероятность:_  
+
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{36})  
+  
+_Вероятность вытащить во второй раз короля, когда в первый раз был не король:_  
+
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{35})  
+
+_Вероятность вытащить третьим ходом даму, когда и в первый и во второй была не дама:_  
+
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{34})  
+  
+_Итого общая вероятность:_
+
+![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{4}{36}\сdot&space\frac{4}{35}\сdot&space\frac{4}{34})  
+
+
   
   
 6. Два стрелка поочередно стреляют по мишени до первого попадания
