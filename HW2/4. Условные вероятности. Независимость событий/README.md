@@ -4,7 +4,22 @@
 
      
     _Всего различных вариантов набрать k шаров -_ 
-    ![формула](https://latex.codecogs.com/svg.image?&space;C_{43}^{5})
+    ![формула](https://latex.codecogs.com/svg.image?&space;C_{m+m}^{5})
+    _Всего различных вариантов набрать 1 первый белый шар -_ 
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m+n})
+    _Всего различных вариантов набрать 2 первых белых шара -_
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m + n})
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m - 1}{m + n - 1})
+    _Всего различных вариантов набрать 3 первых белых шара -_
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m}{m + n})
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m - 1}{m + n - 1})
+    ![формула](https://latex.codecogs.com/svg.image?\inline&space;\frac{m - 2}{m + n - 2})
+    _И так далее_
+
+    _Итого:_
+    https://latex.codecogs.com/svg.image?\inline&space;\prod_{i=0}^{k}\frac{m-i}{m&plus;n-i}
+
+    _Вероятность соответственно:_
     
   
   
