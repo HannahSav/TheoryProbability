@@ -132,7 +132,7 @@ _Вероятность этого события:_
   
   
 _В общем виде для попадания 2-го стрелка с n-того выстрела_  
-![формула](https://latex.codecogs.com/svg.image?\inline&space;(0,2)^{n})\cdot&space;(0,7)^{n-1}\cdot&space;0,3=0,14^{n}\cdot&space;\frac{0,3}{0,7})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;(0,2)^{n}\cdot&space;(0,7)^{n-1}\cdot&space;0,3=0,14^{n}\cdot&space;\frac{0,3}{0,7})
 
 
      
