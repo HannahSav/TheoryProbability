@@ -4,7 +4,7 @@
   
 _Для первого вытягивания есть два случая_  
 _Вытянутый шар - белый. Вероятность_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{бел})=\frac{3}{11})  
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{бел})=\frac{3}{11})  
   
 
 _Вытянутый шар - черный. Вероятность_
