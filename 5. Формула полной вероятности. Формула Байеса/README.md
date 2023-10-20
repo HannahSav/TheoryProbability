@@ -74,7 +74,14 @@ _Нам нужно определить 3 вероятности:_
 _Посчитаем следующие вероятности:_
 
 ![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{1stShooter})=P(Shooter_{1})\ast&space;P(Shooter_{2})\ast&space;P(\bar{Shooter_{3}})\ast&space;+P(Shooter_{1})\ast&space;P(\bar{Shooter_{2}})\ast&space;P(Shooter_{3})\ast&space;=0,8\ast&space;0,4\ast&space;0,8+0,8\ast&space;0,6\ast&space;0,2=0,352)  
-![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{2ndShooter})=P(\bar{Shooter_{1}})\ast&space;P(Shooter_{2})\ast&space;P(Shooter_{3})\ast&space;+P(Shooter_{1})\ast&space;P(\bar{Shooter_{2}})\ast&space;P(Shooter_{3})\ast&space;=0,8\ast&space;0,4\ast&space;0,8+0,8\ast&space;0,6\ast&space;0,2=0,352)
+![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{2ndShooter})=P(\bar{Shooter_{1}})\ast&space;P(Shooter_{2})\ast&space;P(Shooter_{3})\ast&space;+P(Shooter_{1})\ast&space;P(Shooter_{2})\ast&space;P(\bar{Shooter_{3}})\ast&space;=0,2\ast&space;0,4\ast&space;0,2+0,8\ast&space;0,4\ast&space;0,8=0,272)  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{3dShooter})=P(\bar{Shooter_{1}})\ast&space;P(Shooter_{2})\ast&space;P(Shooter_{3})\ast&space;+P(Shooter_{1})\ast&space;P(\bar{Shooter_{2}})\ast&space;P(Shooter_{3})\ast&space;=0,2\ast&space;0,4\ast&space;0,2+0,8\ast&space;0,6\ast&space;0,2=0,112)
+  
+Посчитаем искомые величины:
+
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{1stShooter}|A)=\frac{0,353\ast&space;0,8}{0,353\ast&space;0,8+0,272\ast&space;0,4+0,112\ast&space;0,2}=0,6827853)
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{1stShooter}|A)=\frac{0,272\ast&space;0,4}{0,353\ast&space;0,8+0,272\ast&space;0,4+0,112\ast&space;0,2}=0,263056093)
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{1stShooter}|A)=\frac{0,112\ast&space;0,2}{0,353\ast&space;0,8+0,272\ast&space;0,4+0,112\ast&space;0,2}=0,0541586074)
 
 #### Считаем вероятность, что две пули попали, если попал 1й  
 
