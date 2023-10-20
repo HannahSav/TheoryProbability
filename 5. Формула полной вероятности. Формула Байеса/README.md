@@ -23,13 +23,13 @@ _- был вытянут проигрышный билет_
   
   
 _Вероятность вытянуть выигрышный билет в каждом из этих случаев:_  
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{1})=\frac{5}{12}\ast&space;\frac{4}{11})
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{2})=\frac{7}{12}\ast&space;\frac{4}{11})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{1})=\frac{5}{12}\ast&space;\frac{4}{11}=\frac{20}{132})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{2})=\frac{7}{12}\ast&space;\frac{4}{11}=\frac{28}{132})  
   
   
 _Найдем ответ по формуле Байеса_
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1}|A)=\frac{P(A|H_{1})\ast&space;P(H_{1})}{P(A|H_{1})\ast&space;P(H_{1})+P(A|H_{2})\ast&space;P(H_{2})}\ast&space;\frac{4}{11})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1}|A)=\frac{P(A|H_{1})\ast&space;P(H_{1})}{P(A|H_{1})\ast&space;P(H_{1})+P(A|H_{2})\ast&space;P(H_{2})}\ast&space;=\frac{\frac{5}{12}\ast&space;frac{20}{132}}{\frac{5}{12}\ast&space;frac{20}{132}+\frac{4}{12}\ast&space;frac{28}{132}}=)
 
 
 **4. Три охотника одновременно и независимо стреляют в кабана. Известно,
