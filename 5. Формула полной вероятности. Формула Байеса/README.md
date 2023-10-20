@@ -8,17 +8,17 @@ _Вытянутый шар - белый. Вероятность_
   
 
 _Вытянутый шар - черный. Вероятность_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{b})=\frac{8}{11})  
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{b})=\frac{8}{11})  
    
  
 _Теперь посмотрим в обоих случаях - какова вероятность во второй раз вытянуть черный шар_
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A_{черн}|H_{черн})=\frac{7}{10}\ast&space;\frac{8}{11}=0,5(09))  
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A_{черн}|H_{бел})=\frac{8}{10}\ast&space;\frac{3}{11}=0,2(18))  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A_{b}|H_{w})=\frac{7}{10}\ast&space;\frac{8}{11}=0,5(09))  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A_{b}|H_{w})=\frac{8}{10}\ast&space;\frac{3}{11}=0,2(18))  
   
   
 _Получим ответ:_  
 
-![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A_{черн})=P(A_{черн}|H_{бел})+P(A_{черн}|H_{черн})=0,(72))
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A_{b})=P(A_{b}|H_{w})+P(A_{b}|H_{b})=0,(72))
 
 #### Считаем вероятности с которыми вынули белый или черный. Для каждой из них - вероятности теперь вытащить черный шар
  
