@@ -66,7 +66,15 @@ _Найдем ответ по формуле Байеса_
 **4. Три охотника одновременно и независимо стреляют в кабана. Известно,
 что первый попадает с вероятностью 0.8, второй — 0.4, третий – 0.2. Кабан
 убит и в нем две пули. Как делить кабана?** 
-#### Какие вероятности, что попал первый, второй и третий?  
+
+_Нам нужно определить 3 вероятности:_
+![формула](https://latex.codecogs.com/svg.image?&space;P(H_{1stShooter}|A);P(H_{2ndShooter}|A);P(H_{3dShooter}|A))  
+где A - событие, когда попали 2 стрелка  
+  
+_Посчитаем следующие вероятности:_
+
+![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{1stShooter})=P(Shooter_{1})\ast&space;P(Shooter_{2})\ast&space;P(\bar{Shooter_{3}})\ast&space;+P(Shooter_{1})\ast&space;P(\bar{Shooter_{2}})\ast&space;P(Shooter_{3})\ast&space;=0,8\ast&space;0,4\ast&space;0,8+0,8\ast&space;0,6\ast&space;0,2=0,352)  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A|H_{2ndShooter})=P(\bar{Shooter_{1}})\ast&space;P(Shooter_{2})\ast&space;P(Shooter_{3})\ast&space;+P(Shooter_{1})\ast&space;P(\bar{Shooter_{2}})\ast&space;P(Shooter_{3})\ast&space;=0,8\ast&space;0,4\ast&space;0,8+0,8\ast&space;0,6\ast&space;0,2=0,352)
 
 #### Считаем вероятность, что две пули попали, если попал 1й  
 
