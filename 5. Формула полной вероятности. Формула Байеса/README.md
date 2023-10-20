@@ -16,20 +16,20 @@
   
 _Рассмотрим все случаи для первого вытягивания:_  
 _- был вытянут выигрышный билет_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1})=\frac{5}{12})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1})=\frac{5}{12})
 
 _- был вытянут проигрышный билет_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{2})=\frac{7}{12})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{2})=\frac{7}{12})  
   
   
 _Вероятность вытянуть выигрышный билет в каждом из этих случаев:_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{1})=\frac{5}{12}\ast&space;\frac{4}{11})
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{2})=\frac{7}{12}\ast&space;\frac{4}{11})  
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{1})=\frac{5}{12}\ast&space;\frac{4}{11})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(A|H_{2})=\frac{7}{12}\ast&space;\frac{4}{11})  
   
   
 _Найдем ответ по формуле Байеса_
 
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1}|A)=\frac{P(A|H_{1})\ast&space;P(H_{1})}{P(A|H_{1})\ast&space;P(H_{1})+P(A|H_{2})\ast&space;P(H_{2})}\ast&space;\frac{4}{11})
+![формула](https://latex.codecogs.com/svg.image?\inline&space;P(H_{1}|A)=\frac{P(A|H_{1})\ast&space;P(H_{1})}{P(A|H_{1})\ast&space;P(H_{1})+P(A|H_{2})\ast&space;P(H_{2})}\ast&space;\frac{4}{11})
 
 
 **4. Три охотника одновременно и независимо стреляют в кабана. Известно,
