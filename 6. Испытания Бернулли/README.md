@@ -7,7 +7,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m
 
 _**Для 4 партий:**_
 _Вероятность выиграть 1 раз_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_4^1=C_4^1\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}}^{4-1}=4\ast&space;\frac{1}{2}\ast&space;\frac{1}{8}=0,25)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{4}^{1}=C_{4}^{1}\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}^{4-1}=4\ast&space;\frac{1}{2}\ast&space;\frac{1}{8}=0,25)_
   
 _Тогда вероятность выиграть больше одного раза_
 
@@ -16,11 +16,11 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;1-P
 
 _**Для 6 партий:**_
 _Вероятность выиграть 1 раз_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^1=C_6^1\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}}^{6-1}=6\ast&space;\frac{1}{2}\ast&space;\frac{1}{32}=0.09375)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^1=C_6^1\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}^{6-1}=6\ast&space;\frac{1}{2}\ast&space;\frac{1}{32}=0.09375)_
    
   
 _Вероятность выиграть 2 раза_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^2=C_6^2\ast&space;{\frac{1}{2}}^2\ast&space;{\frac{1}{2}}}^{6-2}=15\ast&space;\frac{1}{2}\ast&space;\frac{1}{16}=0.5)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^2=C_6^2\ast&space;{\frac{1}{2}}^2\ast&space;{\frac{1}{2}}^{6-2}=15\ast&space;\frac{1}{2}\ast&space;\frac{1}{16}=0.5)_
   
 
 _Тогда вероятность выиграть больше двух раз_
