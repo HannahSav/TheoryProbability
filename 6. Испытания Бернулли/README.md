@@ -80,10 +80,13 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
 _Вероятность того, что первый забьет 1 раз_  
   
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^1=C_3^1\ast&space;0,6^1\ast&space;0,4^{3-1}=3*0,6*0,16=0,288)_
+  
 _Вероятность того, что первый забьет 1 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^1=C_3^1\ast&space;0,7^1\ast&space;0,3^{3-1}=3*0,7*0,09=0,189)_
+  
 _Соответственно вероятность того, что оба забьют по 1 разу_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both1shot}=P_{first3}^1\ast&space;P_{second3}^1=0,288\ast&space;0,189=0,054432)_  
+  
   
 
 _Вероятность того, что первый забьет 2 раза_  
