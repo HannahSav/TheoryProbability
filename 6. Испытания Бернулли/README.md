@@ -15,8 +15,7 @@ _Вероятность выиграть 1 раз_
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{4}^{1}=C_{4}^{1}\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}^{4-1}=4\ast&space;\frac{1}{2}\ast&space;\frac{1}{8}=0,25)_
   
 _Тогда вероятность выиграть больше одного раза_
-
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;1-P_4^1-P_4^0=1-0,25-0,0625=0,0625)_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;1-P_4^1-P_4^0=1-0,25-0,0625=0,6875)_  
   
 
 _**Для 6 партий:**_  
@@ -27,16 +26,16 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
   
 
 _Вероятность выиграть 1 раз_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^1=C_6^1\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}^{6-1}=6\ast&space;\frac{1}{2}\ast&space;\frac{1}{32}=0.09375)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^1=C_6^1\ast&space;{\frac{1}{2}}^1\ast&space;{\frac{1}{2}}^{6-1}=6\ast&space;\frac{1}{2}\ast&space;\frac{1}{32}=0,09375)_
    
   
 _Вероятность выиграть 2 раза_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^2=C_6^2\ast&space;{\frac{1}{2}}^2\ast&space;{\frac{1}{2}}^{6-2}=15\ast&space;\frac{1}{2}\ast&space;\frac{1}{16}=0.5)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_6^2=C_6^2\ast&space;{\frac{1}{2}}^2\ast&space;{\frac{1}{2}}^{6-2}=15\ast&space;\frac{1}{4}\ast&space;\frac{1}{16}=0,234375)_
   
 
 _Тогда вероятность выиграть больше двух раз_
 
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;1-P_6^1-P_6^2-P_6^0=1-0,09375-0,5-0,015625=0,390625)
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;1-P_6^1-P_6^2-P_6^0=1-0,09375-0,234375-0,015625=0,65625)
 
   
 **2. В кошельке лежат 8 монет достоинством 5 копеек и 2 монеты
