@@ -31,9 +31,9 @@ _Посчитаем вероятности для выбора каждого и
 ![формула](https://latex.codecogs.com/svg.image?&space;P(H_{fake})=\frac{2}{10})  
   
 _Посчитаем выроятности выпадения трех гербов подряд_  
-![формула](https://latex.codecogs.com/svg.image?&space;P(A_{3gerb}|H_{norm})=\frac{1}{2}\ast&space;\frac{1}{2}\ast&space;\frac{1}{2}\ast&space;\frac{8}{10}\ast&space=0,1)  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A_{3gerb}|H_{norm})=\frac{1}{2}\ast&space;\frac{1}{2}\ast&space;\frac{1}{2}\ast&space;\frac{8}{10}\ast&space;=0,1)  
 
-![формула](https://latex.codecogs.com/svg.image?&space;P(A_{3gerb}|H_{fake})=1\ast&space;1\ast&space;1\ast&space;\frac{2}{10}\ast&space=0,2)  
+![формула](https://latex.codecogs.com/svg.image?&space;P(A_{3gerb}|H_{fake})=1\ast&space;1\ast&space;1\ast&space;\frac{2}{10}\ast&space;=0,2)  
   
 _Получим ответ:_  
 
