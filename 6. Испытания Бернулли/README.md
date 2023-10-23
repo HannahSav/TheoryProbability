@@ -51,7 +51,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_5
   
   
 _Посчитаем верояность получить 15 очков, если выбрали 5 копеек_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_3^5=C_3^5\ast&space;\frac{1}{2}^3\ast&space;\frac{1}{2}^{5-3}=10\ast&space;\frac{1}{8}\ast&space;\frac{1}{4}=\frac{10}{32}=0,3125)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_5^3=C_5^3\ast&space;\frac{1}{2}^3\ast&space;\frac{1}{2}^{5-3}=10\ast&space;\frac{1}{8}\ast&space;\frac{1}{4}=\frac{10}{32}=0,3125)_
     
 
 _А теперь вспомним, что монеты в 3 и в 5 копеек выпадают с разной вероятностью. Посчитаем полную:_
@@ -69,17 +69,25 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m
   
 _Вероятность того, что первый забьет 0 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^0=C_3^0\ast&space;0,6^0\ast&space;0,4^{3-0}=1*1*0,064=0,064)_
+  
 _Вероятность того, что первый забьет 0 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^0=C_3^0\ast&space;0,7^0\ast&space;0,3^{3-0}=1*1*0,027=0,027)_ 
+  
+  
 _Соответственно вероятность того, что оба ни разу не забьют_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both0shot}=P_{first3}^0\ast&space;P_{second3}^0=0,064\ast&space;0,027=0,001728)_
   
 
 _Вероятность того, что первый забьет 1 раз_  
+  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^1=C_3^1\ast&space;0,6^1\ast&space;0,4^{3-1}=3*0,6*0,16=0,288)_
+  
 _Вероятность того, что первый забьет 1 раз_  
+  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^1=C_3^1\ast&space;0,7^1\ast&space;0,3^{3-1}=3*0,7*0,09=0,189)_
+  
 _Соответственно вероятность того, что оба забьют по 1 разу_  
+  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both1shot}=P_{first3}^1\ast&space;P_{second3}^1=0,288\ast&space;0,189=0,054432)_  
   
 
