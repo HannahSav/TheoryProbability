@@ -63,4 +63,10 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m
 бракованное изедлие была не меньше 0.95?**  
   
 _Воспользуемся формулой для подсчета вероятности в схеме испытаний Бернулли_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m^k=C_m^k\ast&space;p^k\ast&space;q^{m-k})_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m^k=C_m^k\ast&space;p^k\ast&space;q^{m-k})_  
+  
+  
+_Эта вероятность должна быть не меньше 0.95. То есть мы ищем m при котором_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;0,95\leq&space;\sum_{i=1}^{m}P_m^i=C_m^i\ast&space;p^i\ast&space;q^{m-i})_   
+  
+[код с перебором](4.py)
