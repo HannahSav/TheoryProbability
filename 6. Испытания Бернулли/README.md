@@ -128,5 +128,5 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;0,9
   
 [код с перебором](4.py)
 
-![img6_1](resources/img6_1.jpg)
-![img6_2](resources/img6_2.jpg)
+![img6_1](resources/img6_2.jpg)
+![img6_2](resources/img6_1.jpg)
