@@ -62,7 +62,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
 _Вероятность того, что первый забьет 0 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^0=C_3^0\ast&space;0,7^0\ast&space;0,3^{3-0}=1*1*0,027=0,027)_ 
 _Соответственно вероятность того, что оба ни разу не забьют_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_both0shot=P_{first3}^0\ast&space;P_{second3}^0=0,064\ast&space;0,027=0,001728)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both0shot}=P_{first3}^0\ast&space;P_{second3}^0=0,064\ast&space;0,027=0,001728)_
   
 
 _Вероятность того, что первый забьет 1 раз_  
