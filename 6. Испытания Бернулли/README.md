@@ -55,7 +55,44 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
 обоих будет равное количество попаданий.**  
   
 _Воспользуемся формулой для подсчета вероятности в схеме испытаний Бернулли_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m^k=C_m^k\ast&space;p^k\ast&space;q^{m-k})_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m^k=C_m^k\ast&space;p^k\ast&space;q^{m-k})_  
+  
+_Вероятность того, что первый забьет 0 раз_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_first3^0=C_3^0\ast&space;0,6^0\ast&space;0,4^{3-0}=1*1*0,064=0,064)_
+_Вероятность того, что первый забьет 0 раз_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_second3^0=C_3^0\ast&space;0,7^0\ast&space;0,3^{3-0}=1*1*0,027=0,027)_ 
+_Соответственно вероятность того, что оба ни разу не забьют_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_both0shot=P_first3^0\ast&space;P_second3^0=0,064\ast&space;0,027=0,001728)_
+  
+
+_Вероятность того, что первый забьет 1 раз_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_first3^1=C_3^1\ast&space;0,6^1\ast&space;0,4^{3-1}=3*0,6*0,16=0,288)_
+_Вероятность того, что первый забьет 1 раз_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_second3^1=C_3^1\ast&space;0,7^1\ast&space;0,3^{3-1}=3*0,7*0,09=0,189)_
+_Соответственно вероятность того, что оба забьют по 1 разу_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_both1shot=P_first3^1\ast&space;P_second3^1=0,288\ast&space;0,189=0,054432)_  
+  
+
+_Вероятность того, что первый забьет 2 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_first3^2=C_3^2\ast&space;0,6^2\ast&space;0,4^{3-2}=3*0,36*0,4=0,432)_
+_Вероятность того, что первый забьет 2 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_second3^2=C_3^2\ast&space;0,7^2\ast&space;0,3^{3-2}=3*0,49*0,3=0,441)_
+_Соответственно вероятность того, что оба забьют по 2 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_both2shot=P_first3^2\ast&space;P_second3^2=0,432\ast&space;0,441=0,190512)_  
+  
+
+
+_Вероятность того, что первый забьет 3 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_first3^3=C_3^3\ast&space;0,6^3\ast&space;0,4^{3-3}=1*0,216*1=0,216)_
+_Вероятность того, что первый забьет 3 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_second3^3=C_3^3\ast&space;0,7^3\ast&space;0,3^{3-3}=1*0,343*1=0,343)_
+_Соответственно вероятность того, что оба забьют по 3 раза_  
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_both3shot=P_first3^3\ast&space;P_second3^2=0,216\ast&space;0,343=0,074088)_  
+  
+  
+  
+_Итоговая вероятность_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_sameNumberOfShot=P_both3shot+P_both2shot+P_both1shot+P_both0shot=0,074088+0,190512+0,054432+0,001728=0,32076)_
   
   
 **4. Партия изделий содержит 1% брака. Каков должен быть объем
