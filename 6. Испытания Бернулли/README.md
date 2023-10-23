@@ -41,7 +41,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_5
   
   
 _Посчитаем верояность получить 15 очков, если выбрали 5 копеек_  
-_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_3^5=C_3^5\ast&space;\frac{1}{2}^3\ast&space;\frac{1}{2}^{5-3}=10\ast&space;\frac{1}{8}\ast&space;\frac{1}{4}=\frac{10}{32}0,3125)_
+_![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_3^5=C_3^5\ast&space;\frac{1}{2}^3\ast&space;\frac{1}{2}^{5-3}=10\ast&space;\frac{1}{8}\ast&space;\frac{1}{4}=\frac{10}{32}=0,3125)_
     
 
 _А теперь вспомним, что монеты в 3 и в 5 копеек выпадают с разной вероятностью. Посчитаем полную:_
@@ -70,3 +70,6 @@ _Эта вероятность должна быть не меньше 0.95. Т�
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;0,95\leq&space;\sum_{i=1}^{m}P_m^i=C_m^i\ast&space;p^i\ast&space;q^{m-i})_   
   
 [код с перебором](4.py)
+
+![img6_1](resources/img6_1.jpg)
+![img6_2](resources/img6_2.jpg)
