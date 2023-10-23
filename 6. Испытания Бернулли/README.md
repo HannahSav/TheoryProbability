@@ -69,6 +69,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_m
   
 _Вероятность того, что первый забьет 0 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^0=C_3^0\ast&space;0,6^0\ast&space;0,4^{3-0}=1*1*0,064=0,064)_
+  
 _Вероятность того, что первый забьет 0 раз_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^0=C_3^0\ast&space;0,7^0\ast&space;0,3^{3-0}=1*1*0,027=0,027)_ 
   
@@ -78,7 +79,6 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
   
 
 _Вероятность того, что первый забьет 1 раз_  
-  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^1=C_3^1\ast&space;0,6^1\ast&space;0,4^{3-1}=3*0,6*0,16=0,288)_
   
 _Вероятность того, что первый забьет 1 раз_  
@@ -90,23 +90,22 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
   
 
 _Вероятность того, что первый забьет 2 раза_  
-  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^2=C_3^2\ast&space;0,6^2\ast&space;0,4^{3-2}=3*0,36*0,4=0,432)_
   
 _Вероятность того, что первый забьет 2 раза_  
- 
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^2=C_3^2\ast&space;0,7^2\ast&space;0,3^{3-2}=3*0,49*0,3=0,441)_
   
 _Соответственно вероятность того, что оба забьют по 2 раза_  
-  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both2shot}=P_{first3}^2\ast&space;P_{second3}^2=0,432\ast&space;0,441=0,190512)_  
   
 
 
 _Вероятность того, что первый забьет 3 раза_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{first3}^3=C_3^3\ast&space;0,6^3\ast&space;0,4^{3-3}=1*0,216*1=0,216)_
+  
 _Вероятность того, что первый забьет 3 раза_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{second3}^3=C_3^3\ast&space;0,7^3\ast&space;0,3^{3-3}=1*0,343*1=0,343)_
+  
 _Соответственно вероятность того, что оба забьют по 3 раза_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{both3shot}=P_{first3}^3\ast&space;P_{second3}^2=0,216\ast&space;0,343=0,074088)_  
   
