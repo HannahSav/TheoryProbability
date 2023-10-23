@@ -111,7 +111,7 @@ _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{
   
   
   
-_Итоговая вероятность_
+_Итоговая вероятность_  
 _![формула](https://latex.codecogs.com/svg.image?\inline&space;&space;P_{sameNumberOfShot}=P_{both3shot}+P_{both2shot}+P_{both1shot}+{P_both0shot}=0,074088+0,190512+0,054432+0,001728=0,32076)_
   
   
